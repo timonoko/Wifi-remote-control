@@ -1,0 +1,47 @@
+while true; do
+      iik=$(curl -m 5 Kauko) ; 
+      if echo  $iik | grep "ON:3" ; then
+        curl-silent http://4rele/r3on
+      elif echo  $iik | grep "OFF:3" ; then
+        curl-silent http://4rele/r3off
+      elif echo  $iik | grep "ON:2" ; then
+        curl-silent http://4rele/r2on
+      elif echo  $iik | grep "OFF:2" ; then
+        curl-silent http://4rele/r2off
+      elif echo  $iik | grep "ON:1" ; then
+        curl-silent http://4rele/r1on
+      elif echo  $iik | grep "OFF:1" ; then
+        curl-silent http://4rele/r1off
+      elif echo  $iik | grep "ON:6" ; then
+        curl-silent http://4rele/r4on
+      elif echo  $iik | grep "OFF:6" ; then
+        curl-silent http://4rele/r4off
+      elif echo  $iik | grep "ON:4" ; then
+        curl-silent http://192.168.1.11:8083/ON1
+      elif echo  $iik | grep "OFF:4" ; then
+        curl-silent http://192.168.1.11:8083/OFF1
+      elif echo  $iik | grep "ON:5" ; then
+        curl-silent http://192.168.1.11:8083/ON2
+      elif echo  $iik | grep "OFF:5" ; then
+        curl-silent http://192.168.1.11:8083/OFF2
+      elif echo  $iik | grep "ON:7" ; then
+        curl-silent http://192.168.1.64/5/on
+      elif echo  $iik | grep "OFF:7" ; then
+        curl-silent http://192.168.1.64/5/off
+      elif echo  $iik | grep "ON:8" ; then
+        curl-silent http://192.168.1.62/5/on
+      elif echo  $iik | grep "OFF:8" ; then
+        curl-silent http://192.168.1.62/5/off
+      elif echo  $iik | grep "OFF:9" ; then
+        curl-silent http://4rele/r3off
+        curl-silent http://4rele/r2off
+        curl-silent http://4rele/r1off
+        curl-silent http://4rele/r4off
+        curl-silent http://192.168.1.11:8083/OFF1
+        curl-silent http://192.168.1.11:8083/OFF2
+        curl-silent http://192.168.1.64/5/off
+        curl-silent http://192.168.1.62/5/off
+      fi
+#      curl-silent http://Kauko/ON:1
+done
+
