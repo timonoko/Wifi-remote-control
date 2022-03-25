@@ -10,3 +10,5 @@ Kaukosaadin: Bash-script polls the web-page from above and interprets them as ne
 Great innovation is the number 9 button, which just turns everything off.
 
 <img src=saadin.png>
+
+<img src=napit.png>
