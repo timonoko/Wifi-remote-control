@@ -1,0 +1,12 @@
+# Wifi-remote-control
+Too many Wifi-devices. Made one master switch.
+
+Kauko.py: ESP-01 reads nine buttons via CD4014 parallel-to-serial and creates web-page
+where N{X}ON and N{X}OFF signals appear. Long press is the OFF. Deep-sleeps after 30 seconds.
+White button is just a power switch and and takes 5 seconds to create a Wifi-connection,
+but you can can get used to that.
+
+Kaukosaadin: Bash-script polls the web-page from above and interprets them as needed.
+Great innovation is the number 9 button, which just turns everything off.
+
+<img src=säädin.py>
