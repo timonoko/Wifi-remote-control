@@ -9,4 +9,4 @@ but you can can get used to that.
 Kaukosaadin: Bash-script polls the web-page from above and interprets them as needed.
 Great innovation is the number 9 button, which just turns everything off.
 
-<img src=säädin.py>
+<img src=säädin.ping>
