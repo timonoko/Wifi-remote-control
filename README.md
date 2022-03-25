@@ -2,7 +2,7 @@
 Too many Wifi-devices. Made one master switch.
 
 Kauko.py: ESP-01 reads nine buttons via CD4014 parallel-to-serial and creates web-page
-where N{X}ON and N{X}OFF signals appear. Long press is the OFF. Deep-sleeps after 30 seconds.
+where ON:{X} and OFF:{X} signals appear. Long press is the OFF. Deep-sleeps after 30 seconds.
 White button is a power switch and iy takes 5 seconds to create a Wifi-connection,
 but you can can get used to that.
 
