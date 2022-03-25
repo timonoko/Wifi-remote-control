@@ -1,5 +1,5 @@
 # Wifi-remote-control
-Too many Wifi-devices. Made one master switch.
+Too many Wifi-devices. Made one master switch to rule them all.
 
 Kauko.py: ESP-01 reads nine buttons via CD4014 parallel-to-serial and creates web-page
 where ON:{X} and OFF:{X} signals appear. Long press is the OFF. Deep-sleeps after 30 seconds. Will work
